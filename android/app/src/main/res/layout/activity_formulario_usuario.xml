@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText android:id="@+id/activity_formulario_usuario_nome"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Nome"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_cpf_cnpj"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="CPF/CNPJ"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_logradouro"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Logradouro"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_numero"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Numero"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_bairro"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Bairro"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_cep"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="CEP"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_complemento"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Complemento"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_cidade"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Cidade"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_estado"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Estado"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_telefone"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Telefone"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/activity_formulario_usuario_email"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:hint="Email"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/activity_formulario_usuario_botao_salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</ScrollView>
